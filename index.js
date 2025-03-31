@@ -17,7 +17,7 @@ databaseConnection();
 // Middleware
 const corsOptions = {
   // origin: ["http://localhost:5173", "http://localhost:5174"],
-  origin: "https://final-assignment-client.vercel.app",
+  origin: "https://study-management-system-client.vercel.app",
   credentials: true,
 };
 app.use(cors(corsOptions));
